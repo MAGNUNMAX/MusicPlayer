@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>MusicSound</title>
+</head>
+<body>
+
+   
+
+    <main id="mainBox">
+
+      
+        
+
+        <div id="botons">
+
+            
+            <img class="images" id="previos" src="./imagen/leftBoton.png" alt="previos">
+            <img class="images" id="play" src="./imagen/boton1.png" alt="play"> 
+            <img class="images" id="pause" src="./imagen/boton2.png" alt="pause">
+            <img class="images" id="next" src="./imagen/rigthBoton.png" alt="next">
+
+        </div>
+
+        <div id="timerBox">
+
+            <div id="songProgress" style="color: white;">0:00</div>
+            <div id="songRealTime" style="color: white;">0:00</div>
+
+        </div>
+
+        
+
+        <div id="progressTrack">
+            <input type="range" id="progress" value="0" min="0" max="100">
+        </div>
+
+
+        <div id="musicBox">
+        <ul id = "musicList">
+           
+        </ul>
+        </div>
+        
+
+    
+    </main>
+
+ 
+
+    
+    
+</body>
+<script type="module" src="./index.js"></script>
+</html>
